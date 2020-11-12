@@ -112,7 +112,7 @@ function play() {
     playerSpan.innerText = 'O';
   } else {
     playerSpan.innerText = 'X';
-  }
+  } 
 }
 ```
 
@@ -327,7 +327,7 @@ function play(clickedId) {
     }
   }
   if (boardFull === true) {
-    alert("Cat's game, there is no winner");
+    alert("Cat's game, no winner");
   }
 }
 

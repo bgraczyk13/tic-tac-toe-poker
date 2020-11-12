@@ -13,6 +13,18 @@
     <h1>Tic Tac Toe Board!</h1>
   </nav>
   <main>
+    <style type="text/css" media="all">
+      td {
+        width: 100px;
+        height: 100px;
+        background:white;
+        color:black;
+        line-height: 100px;
+        text-align: center;
+        font-size: 3rem;
+      }
+    </style>
+    <button type="submit">Reset</button>
     <table>
       <tr class="row">
         <td id="0" onclick="play(0)"></td>
@@ -34,6 +46,7 @@
     <span id="player">X</span>
     <span>'s turn</span>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
